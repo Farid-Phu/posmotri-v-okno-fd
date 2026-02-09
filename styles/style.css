@@ -11,9 +11,8 @@ html {
 .page {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin: auto;
-  padding-top: 135px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
