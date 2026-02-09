@@ -82,6 +82,7 @@ ol {
   font-size: 18px;
   text-align: center;
   background-color: transparent;
+  cursor: pointer;
 }
 .button:hover {
   text-decoration: underline;
@@ -147,6 +148,7 @@ button:focus-visible {
 }
 .search-form__textfield {
   border: none;
+  min-width: 225px;
   border-top: solid 1px #fff;
   border-bottom: solid 1px #fff;
   color: #fff;
@@ -154,6 +156,7 @@ button:focus-visible {
   font-weight: 400;
   font-size: 18px;
   background-color: transparent;
+  cursor: pointer;
   appearance: none;
 }
 .search-form__textfield::placeholder {
@@ -168,6 +171,7 @@ button:focus-visible {
   gap: 10px;
   width: fit-content;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .search-form__label:has(.search-form__textfield:focus-visible) {
   border-color: #fff;
@@ -222,8 +226,28 @@ button:focus-visible {
   color: rgba(255, 255, 255, 0.1);
 }
 .content__card-link {
+  display: block;
   color: #fff;
   text-decoration: none;
+}
+.content__card-link_current {
+  background-color: rgba(84, 80, 80, 1);
+}
+.content__card-link:hover {
+  text-decoration: underline;
+}
+.content__card-link:focus {
+  outline: none;
+}
+.content__card-link:focus-within {
+  outline: 1px solid white;
+}
+.content__list-item {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.content__list-item:first-child {
+  padding-top: 3px;
 }
 .content__video-card-title {
   display: -webkit-box;
