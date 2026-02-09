@@ -13,7 +13,7 @@ html {
   justify-content: center;
   align-items: flex-start;
   margin: auto;
-  padding-top: 140px;
+  padding-top: 135px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -60,11 +60,9 @@ ol {
   gap: 30px;
   padding: 0 30px;
 }
-.result {
-  display: flex;
-  flex-direction: column;
-}
+
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -113,6 +111,9 @@ button:focus-visible {
   align-items: flex-start;
 }
 .search-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   border: none;
 }
 .search-form__fieldset-title {
@@ -123,7 +124,7 @@ button:focus-visible {
 }
 .search-form__checkbox-list {
   display: flex;
-  gap: 30px;
+  gap: 13px;
   width: fit-content;
 }
 .search-form__pseudo-checkbox {
@@ -147,8 +148,8 @@ button:focus-visible {
   text-decoration: underline;
 }
 .search-form__textfield {
-  border: none;
   min-width: 225px;
+  border: none;
   border-top: solid 1px #fff;
   border-bottom: solid 1px #fff;
   color: #fff;
@@ -168,7 +169,7 @@ button:focus-visible {
 .search-form__label {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   width: fit-content;
   border: 1px solid transparent;
   cursor: pointer;
@@ -181,7 +182,7 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: 10px;
+  gap: 12px;
   height: 100%;
 }
 
@@ -191,6 +192,7 @@ button:focus-visible {
   gap: 30px;
 }
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -214,6 +216,7 @@ button:focus-visible {
   min-width: 0;
 }
 .title {
+  padding-bottom: 10px;
   font-family: Oswald;
   font-weight: 700;
   font-size: 75px;
@@ -251,6 +254,8 @@ button:focus-visible {
 }
 .content__video-card-title {
   display: -webkit-box;
+  width: 196px;
+  padding-top: 3px;
   overflow: hidden;
   font-family: Oswald;
   font-weight: 700;
@@ -258,6 +263,7 @@ button:focus-visible {
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
+  text-overflow: ellipsis;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
