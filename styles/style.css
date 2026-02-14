@@ -118,7 +118,6 @@ button:focus-visible {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 .search-form__checkbox-list {
   display: flex;
@@ -220,7 +219,6 @@ button:focus-visible {
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -265,7 +263,6 @@ button:focus-visible {
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
@@ -278,7 +275,6 @@ button:focus-visible {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  letter-spacing: 0%;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
 }
